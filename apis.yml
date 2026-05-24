@@ -134,6 +134,8 @@ common:
         description: Notification integration for alerts and workflow notifications via Slack.
       - name: Jira
         description: Project management integration via Wizdesk connector for issue tracking.
+  - type: LLMsTxt
+    url: https://docs.apiwiz.io/llms.txt
 maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
