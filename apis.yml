@@ -54,6 +54,8 @@ apis:
       threat detection, automated compliance monitoring, and API marketplace with
       dynamic pricing models.
 common:
+  - type: DomainSecurity
+    url: security/apiwiz-domain-security.yml
   - type: LinkedIn
     url: https://www.linkedin.com/company/apiwiz
   - type: Documentation
