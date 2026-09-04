@@ -41,8 +41,8 @@ accessModel:
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/apiwiz.png
 access: 3rd-Party
 created: '2025-01-08'
-modified: '2026-04-19'
-position: Consumer
+modified: '2026-09-03'
+position: Consuming
 description: >-
   APIwiz is a federated API management platform that streamlines the complete API
   lifecycle from design through monetization. The low-code platform provides centralized
@@ -63,9 +63,9 @@ apis:
       - Low-Code
     humanURL: https://www.apiwiz.io/
     properties:
-      - url: https://docs.apiwiz.io/docs
+      - url: https://docs.apiwiz.io/guides
         type: Documentation
-      - url: https://docs.apiwiz.io/api-reference
+      - url: https://docs.apiwiz.io/references
         type: APIReference
       - url: https://www.apiwiz.io/platform
         type: Portal
@@ -86,17 +86,17 @@ common:
   - type: DomainSecurity
     url: security/apiwiz-domain-security.yml
   - type: LinkedIn
-    url: https://www.linkedin.com/company/apiwiz
+    url: https://www.linkedin.com/company/apiwizio/
   - type: Documentation
-    url: https://docs.apiwiz.io/docs
+    url: https://docs.apiwiz.io/guides
   - type: APIReference
-    url: https://docs.apiwiz.io/api-reference
+    url: https://docs.apiwiz.io/references
   - type: Portal
     url: https://www.apiwiz.io/platform
   - type: GitHubOrganization
     url: https://github.com/apiwizlabs
   - type: Contact
-    url: https://www.apiwiz.io/contact
+    url: https://www.apiwiz.io/contact-us
   - type: Support
     url: https://wizdesk.apiwiz.io
   - type: Features
@@ -165,9 +165,32 @@ common:
         description: Notification integration for alerts and workflow notifications via Slack.
       - name: Jira
         description: Project management integration via Wizdesk connector for issue tracking.
-  - type: LlmsText
-    url: https://docs.apiwiz.io/llms.txt
+  - type: LLMsTxt
+    url: llms/apiwiz-llms.txt
+  - type: Packages
+    url: packages/apiwiz-packages.yml
+  - type: Components
+    url: components/apiwiz-components.yml
+  - type: Conformance
+    url: conformance/apiwiz-conformance.yml
+  - type: Compliance
+    url: https://www.apiwiz.io/legal/certificates
+  - type: TrustCenter
+    url: security/apiwiz-trust-center.yml
+  - type: Lifecycle
+    url: lifecycle/apiwiz-lifecycle.yml
+  - type: Login
+    url: https://accounts.apiwiz.io/auth
+  - type: YouTube
+    url: https://www.youtube.com/@apiwiz
+  - type: Twitter
+    url: https://x.com/getapiwiz
 maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 specificationVersion: '0.23'
+x-enrichment:
+  date: '2026-09-03'
+  status: enriched
+  artifacts_added: 7
+  pass: local-v1
