@@ -77,6 +77,8 @@ apis:
       threat detection, automated compliance monitoring, and API marketplace with
       dynamic pricing models.
 common:
+  - type: Website
+    url: https://www.apiwiz.io/
   - type: Blog
     url: https://www.apiwiz.io/blog
   - type: PrivacyPolicy
