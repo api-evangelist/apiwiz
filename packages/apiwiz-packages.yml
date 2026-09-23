@@ -1,0 +1,45 @@
+generated: '2026-09-03'
+method: searched
+source: https://registry.npmjs.org/-/v1/search?text=apiwiz
+note: >-
+  First-party packages live under the @apiwiz npm scope (maintainers apiwiz-admin,
+  nihal-apiwiz). Both are embeddable documentation/catalog UI component libraries for
+  the APIwiz developer-portal product, not API client SDKs — no SDKs pointer is
+  emitted. PyPI has no apiwiz package (pypi.org/pypi/apiwiz/json returned 404,
+  2026-09-03). The unscoped npm package "apiwiz" (krishangoyal12) is an unrelated
+  generic HTTP helper that collides on the name — excluded deliberately.
+packages:
+  - language: javascript
+    registry: npm
+    name: "@apiwiz/apiwiz-catalog-library"
+    url: https://www.npmjs.com/package/@apiwiz/apiwiz-catalog-library
+    install: npm install @apiwiz/apiwiz-catalog-library
+    official: true
+    version: 2.0.57
+    published: '2026-08-06'
+    note: >-
+      Package of guides, workflows, GraphQL and OAS documentation components for the
+      APIwiz catalog/portal surface. Maintained by apiwiz-admin.
+  - language: javascript
+    registry: npm
+    name: "@apiwiz/docuwiz-ui"
+    url: https://www.npmjs.com/package/@apiwiz/docuwiz-ui
+    install: npm install @apiwiz/docuwiz-ui
+    official: true
+    version: 0.1.4
+    published: '2026-05-29'
+    note: >-
+      Docuwiz UI component library, maintained under the first-party @apiwiz scope
+      (apiwiz-admin).
+  - language: javascript
+    registry: npm
+    name: apiwiz-swagger-enhance
+    url: https://www.npmjs.com/package/apiwiz-swagger-enhance
+    install: npm install apiwiz-swagger-enhance
+    official: false
+    version: 1.0.6
+    published: '2025-11-28'
+    note: >-
+      "AI-powered enhancement for large OpenAPI specifications." Published by an
+      individual account (shashil-sravan) outside the @apiwiz scope; first-party
+      status could not be confirmed, so official is left false.

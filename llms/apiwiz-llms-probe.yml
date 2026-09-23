@@ -9,10 +9,13 @@
 # Same posture as the well-known probe artifacts: a recorded absence is a valid
 # measurement. Do not delete this to 'clean up' — deleting it restores the bug.
 llms:
-  probed: '2026-08-17'
+  probed: '2026-09-03'
   url: https://docs.apiwiz.io/llms.txt
-  verdict: unreachable
+  verdict: not-published
   published: false
-  detail: HTTPError
+  detail: HTTP 404
   note: >-
-    The declared URL could not be fetched.
+    Re-probed 2026-09-03: a clean 404 (prior probe 2026-08-17 recorded HTTPError).
+    The provider publishes no llms.txt; the dead LlmsText pointer was removed from
+    apis.yml and a generated llms/apiwiz-llms.txt (method: generated) now carries
+    the LLMsTxt pointer instead.

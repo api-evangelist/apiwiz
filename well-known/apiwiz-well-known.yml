@@ -1,0 +1,86 @@
+generated: '2026-09-03'
+method: probed
+source: live GET probes of the named /.well-known/ path list, 2026-09-03
+note: >-
+  Every probed path missed on both real hosts — no WellKnown or SecurityTxt pointer is
+  emitted; this file records the absence. On docs.apiwiz.io the /apis.json and
+  /apis.yml paths return 401 application/json from the portal backend (an auth-gated
+  API route, not a served index). Four other apiwiz.io subdomains (dev, status, trust,
+  accounts) are catch-all SPA hosts that answer HTTP 200 with the same ~2KB APIwiz app
+  shell for EVERY path including a negative-control path that cannot exist
+  (path_echo_control: failed) — no probe result from those hosts is creditable, so no
+  documents are recorded for them. A2A agent-card probes
+  (/.well-known/agent-card.json, /.well-known/agent.json) also returned 404 on both
+  real hosts; per pipeline rules nothing is written to a2a/.
+path_echo_controls:
+  - host: https://www.apiwiz.io
+    path: /.well-known/apiwiz-negative-control-7q9x2f.json
+    status: 404
+    result: passed
+  - host: https://docs.apiwiz.io
+    path: /.well-known/apiwiz-negative-control-7q9x2f.json
+    status: 404
+    result: passed
+  - host: https://dev.apiwiz.io
+    path: /negative-control-x9z28q.json
+    status: 200
+    result: failed
+    note: catch-all SPA shell — every 200 from this host is discarded
+  - host: https://status.apiwiz.io
+    path: /negative-control-x9z28q
+    status: 200
+    result: failed
+    note: catch-all SPA shell — every 200 from this host is discarded
+hosts:
+  - host: https://www.apiwiz.io
+    documents:
+      - path: /.well-known/security.txt
+        status: 404
+      - path: /.well-known/openid-configuration
+        status: 404
+      - path: /.well-known/oauth-authorization-server
+        status: 404
+      - path: /.well-known/oauth-protected-resource
+        status: 404
+      - path: /.well-known/api-catalog
+        status: 404
+      - path: /.well-known/ai-plugin.json
+        status: 404
+      - path: /.well-known/ucp.json
+        status: 404
+      - path: /.well-known/acp.json
+        status: 404
+      - path: /.well-known/aauth-resource.json
+        status: 404
+      - path: /.well-known/apis.json
+        status: 404
+      - path: /apis.json
+        status: 404
+      - path: /apis.yml
+        status: 404
+  - host: https://docs.apiwiz.io
+    documents:
+      - path: /.well-known/security.txt
+        status: 404
+      - path: /.well-known/openid-configuration
+        status: 404
+      - path: /.well-known/oauth-authorization-server
+        status: 404
+      - path: /.well-known/oauth-protected-resource
+        status: 404
+      - path: /.well-known/api-catalog
+        status: 404
+      - path: /.well-known/ai-plugin.json
+        status: 404
+      - path: /.well-known/ucp.json
+        status: 404
+      - path: /.well-known/acp.json
+        status: 404
+      - path: /.well-known/aauth-resource.json
+        status: 404
+      - path: /.well-known/apis.json
+        status: 404
+      - path: /apis.json
+        status: 401
+      - path: /apis.yml
+        status: 401

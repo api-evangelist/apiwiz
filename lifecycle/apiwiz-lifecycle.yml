@@ -1,0 +1,30 @@
+generated: '2026-09-03'
+method: searched
+source: https://www.apiwiz.io/legal/service-level-agreement
+note: >-
+  APIwiz publishes a legal SLA with financial credits. status.apiwiz.io exists but
+  answers with the catch-all APIwiz SPA shell for every path (fails a negative
+  control), so a public status page could not be verified and no StatusPage pointer
+  is emitted. No versioning or deprecation policy is published (the API reference is
+  login-gated), so no Deprecation pointer is emitted. The SLA text still references
+  ITORIX — APIwiz's former corporate name — for partner/reseller terms.
+sla:
+  url: https://www.apiwiz.io/legal/service-level-agreement
+  uptime_target: "99%"
+  detail: >-
+    "Uptime commitment of 99% and above for those with a valid subscription plan of
+    Pro or Enterprise." Customers meeting their SLA obligations are eligible for the
+    financial credits described in the agreement.
+  financial_credits: true
+  fetched: '2026-09-03'
+  http_status: 200
+disaster_recovery:
+  url: https://www.apiwiz.io/legal/disaster-recovery-plan-31hui
+  http_status: 200
+status_page: null
+status_page_note: >-
+  status.apiwiz.io returns HTTP 200 with the same ~2KB SPA shell for every path,
+  including a negative-control path — not verifiable as a served status page.
+versioning: null
+deprecation: null
+deprecated_operations: []
