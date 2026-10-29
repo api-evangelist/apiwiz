@@ -1,4 +1,4 @@
-# APIwiz (apiwiz)
+# APIwiz
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,94 +64,110 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-APIwiz is a federated API management platform that streamlines the complete API lifecycle from design through monetization. The low-code platform provides centralized control for organizations managing APIs across multiple cloud environments, with federated gateway control, automated governance, security pipeline, compliance monitoring, and API marketplace capabilities. Trusted by 25K+ managed APIs and 10B+ API volume.
+APIwiz is a federated API management platform that streamlines the complete API lifecycle from design through monetization. The low-code platform provides centralized control for organizations managing APIs across multiple cloud environments, with federated gateway control, automated governance, security pipeline, compliance monitoring, and API marketplace capabilities. Trusted by 25K+ managed APIs and 10B+ API volume. Gartner Magic Quadrant Honorable Mention (2023).
 
-**URL:** [https://www.apiwiz.io/](https://www.apiwiz.io/)
+**Areas:** API Design · API Gateway · API Governance · API Lifecycle · API Management · API Monetization · API Security · Automation · Developer Tools · Low-Code · Observability · Platform
 
-**Run:** [Capabilities Using Naftiko](https://github.com/naftiko/fleet?utm_source=api-evangelist&utm_medium=readme&utm_campaign=company-api-evangelist&utm_content=repo)
+## APIwiz on APIs.io
 
-## Tags:
+Everything profiled for APIwiz is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/apiwiz/](https://apis.io/providers/apiwiz/)** — or go straight to one of the APIs or properties below.
 
- - API Design, API Gateway, API Governance, API Lifecycle, API Management, API Monetization, API Security, Automation, Low-Code, Observability, Platform
+### APIs (1)
 
-## Timestamps
+- [APIwiz](https://apis.io/apis/apiwiz/apiwiz/) — APIwiz is a low-code, end-to-end API management platform enabling the complete API lifecycle including design, build, security, governance, observability,…
 
-- **Created:** 2025-01-08
-- **Modified:** 2026-04-19
+### Published properties
 
-## APIs
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-### APIwiz
-APIwiz is a low-code, end-to-end API management platform enabling the complete API lifecycle including design, build, security, governance, observability, and monetization. It provides a visual API design studio, federated gateway control across multiple cloud environments, eBPF-powered logging, security pipeline with threat detection, automated compliance monitoring, and API marketplace with dynamic pricing models.
+#### Security (2)
 
-**Human URL:** [https://www.apiwiz.io/](https://www.apiwiz.io/)
+Authentication, trust centre, and vulnerability disclosure.
 
-#### Tags:
+- [Apiwiz Domain Security](https://apis.io/security/apiwiz/apiwiz-domain-security/)
+- [Apiwiz Trust Center](https://apis.io/security/apiwiz/apiwiz-trust-center/)
 
- - API Design, API Governance, API Lifecycle, API Management, API Monetization, API Security, Low-Code
+#### Plans and pricing (1)
 
-#### Properties
+Published plans, tiers and prices.
 
-- [Documentation](https://docs.apiwiz.io/docs)
-- [APIReference](https://docs.apiwiz.io/api-reference)
-- [Portal](https://www.apiwiz.io/platform)
+- [Apiwiz Plans Pricing](https://apis.io/plans/apiwiz/apiwiz-plans-pricing/)
 
-## Common Properties
+#### Rate limits (1)
 
-- [Documentation](https://docs.apiwiz.io/docs)
-- [APIReference](https://docs.apiwiz.io/api-reference)
-- [Portal](https://www.apiwiz.io/platform)
-- [GitHubOrganization](https://github.com/apiwizlabs)
-- [Contact](https://www.apiwiz.io/contact)
+Published request limits.
+
+- [Apiwiz Rate Limits](https://apis.io/rate-limits/apiwiz/apiwiz-rate-limits/)
+
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [Apiwiz Finops](https://apis.io/finops/apiwiz/apiwiz-finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.apiwiz.io/)
+- [Documentation](https://docs.apiwiz.io/guides)
+- [API reference](https://docs.apiwiz.io/references)
 - [Support](https://wizdesk.apiwiz.io)
+- [Blog](https://www.apiwiz.io/blog)
+- [Compliance](https://www.apiwiz.io/legal/certificates)
+- [Terms of service](https://www.apiwiz.io/legal/terms-conditions)
+- [Privacy policy](https://www.apiwiz.io/legal/privacy-policy)
+- [GitHub](https://github.com/apiwizlabs)
 
-## Features
+## API Evangelist rating
 
-| Name | Description |
-|------|-------------|
-| Visual API Design Studio | Collaborative API specification design with linting, changelogs, and versioning. |
-| Data Modeling | Standardized data structures for consistent API design across teams. |
-| Low-Code Workflow Builder | Visual workflow builder for API logic orchestration without heavy coding. |
-| API Discovery | Zero-touch discovery and cataloging of shadow and unmanaged APIs. |
-| Security Pipeline | Real-time security scanning, threat detection, and automated security alerts. |
-| Compliance Monitoring | Automated compliance reporting and multi-environment policy enforcement. |
-| Federated Gateway Control | Centralized management of multiple API gateways across cloud environments. |
-| eBPF-Powered Observability | Logging and tracing powered by eBPF for deep performance and security insights. |
-| API Marketplace | Marketplace capabilities with dynamic pricing models for API monetization. |
-| Revenue Analytics | Fine-grained metering with custom charge rules and revenue reconciliation. |
-| Scenario-Driven Testing | Automated testing automation with test and virtualization capabilities. |
+**Kin Score 24.6** — emerging · rubric 0.24.0 · scored 2026-10-17
 
-## Use Cases
+| Facet | Score |
+|---|---|
+| Discoverability | 64.3 |
+| Contract quality | 0.0 |
+| Contract governance | 18.2 |
+| Operational transparency | 2.6 |
+| Developer ergonomics | 28.6 |
+| Access clarity | 43.4 |
 
-| Name | Description |
-|------|-------------|
-| Platform Engineering | Build and manage an internal developer platform with full API lifecycle governance. |
-| API Gateway Migration | Migrate between API gateways with federated control and minimal disruption. |
-| API Governance | Automate compliance monitoring and enforce API policies across all environments. |
-| Banking and Fintech | Manage financial APIs with high security, compliance, and monetization requirements. |
-| Telecommunications | Manage large-scale telecom APIs with federated gateway control and observability. |
-| API Monetization | Publish APIs to marketplace and configure usage-based pricing for revenue generation. |
+**Agent readiness 2.5** — human-only
 
-## Integrations
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
 
-| Name | Description |
-|------|-------------|
-| Apigee | API gateway integration for managing APIs through Google Apigee. |
-| Kong | API gateway integration for managing APIs through Kong. |
-| IBM API Connect | API gateway integration for managing APIs through IBM API Connect. |
-| GitHub | SCM integration for source code management and CI/CD workflows. |
-| GitLab | SCM integration for source code management and CI/CD workflows. |
-| Bitbucket | SCM integration for source code management and CI/CD workflows. |
-| Azure DevOps | SCM and DevOps integration for Microsoft Azure DevOps pipelines. |
-| AWS CodeCommit | SCM integration for Amazon Web Services code repository. |
-| Okta | Identity management integration for authentication and authorization. |
-| Active Directory | Identity management integration for Microsoft Active Directory. |
-| Ping Identity | Identity management integration for enterprise identity governance. |
-| Slack | Notification integration for alerts and workflow notifications via Slack. |
-| Jira | Project management integration via Wizdesk connector for issue tracking. |
+**Regulatory alignment 23.5** — Horizontal (data, software, accessibility, platform)
 
-## Maintainers
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/apiwiz/](https://apis.io/providers/apiwiz/).
 
-**FN:** Kin Lane
+## How this profile is made
 
-**Email:** info@apievangelist.com
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for APIwiz: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/apiwiz/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
